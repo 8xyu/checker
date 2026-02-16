@@ -206,7 +206,7 @@ class Pomelo:
         self.remove_proxies = config.get("remove_proxies")
         self.timeout = config.get("timeout")
         if self.timeout is None:
-            self.timeout = 30
+            self.timeout = 0
 
         Logger.log(f"Timeout set to {self.timeout}")
         Logger.log(f"Remove proxies set to {self.remove_proxies}")

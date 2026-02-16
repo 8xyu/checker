@@ -1,0 +1,5 @@
+{
+    "webhook": null,
+    "timeout": 30,
+    "remove_proxies": false
+}
